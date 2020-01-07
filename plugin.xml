@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="org.usask.srlab.COSTER.commands.category"
+            name="COSTER Category">
+      </category>
+      <command
+            categoryId="org.usask.srlab.COSTER.commands.category"
+            id="org.usask.srlab.COSTER.commands.importsCommands"
+            name="Fix Imports">
+      </command>
+      <command
+            categoryId="org.usask.srlab.COSTER.commands.category"
+            id="org.usask.srlab.COSTER.commands.inferCommand"
+            name="Infer Types">
+      </command>
+      <command
+            categoryId="org.usask.srlab.COSTER.commands.category"
+            id="org.usask.srlab.COSTER.commands.retrainCommand"
+            name="Retrain COSTER">
+      </command>
+      <command
+            categoryId="org.usask.srlab.COSTER.commands.category"
+            id="org.usask.srlab.COSTER.commands.aboutCommand"
+            name="About Us">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.usask.srlab.coster.handlers.FixImports"
+            commandId="org.usask.srlab.COSTER.commands.importsCommands">
+      </handler>
+      <handler
+            class="org.usask.srlab.coster.handlers.InferTypes"
+            commandId="org.usask.srlab.COSTER.commands.inferCommand">
+      </handler>
+      <handler
+            class="org.usask.srlab.coster.handlers.RetrainModel"
+            commandId="org.usask.srlab.COSTER.commands.retrainCommand">
+      </handler>
+      <handler
+            class="org.usask.srlab.coster.handlers.About"
+            commandId="org.usask.srlab.COSTER.commands.aboutCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="org.usask.srlab.COSTER.menus.costerMenu"
+               label="COSTER"
+               mnemonic="C">
+            <command
+                  commandId="org.usask.srlab.COSTER.commands.importsCommands"
+                  label="Fix Imports">
+            </command>
+            <command
+                  commandId="org.usask.srlab.COSTER.commands.inferCommand"
+                  label="Infer Types">
+            </command>
+            <command
+                  commandId="org.usask.srlab.COSTER.commands.retrainCommand"
+                  label="Train Model">
+            </command>
+            <command
+                  commandId="org.usask.srlab.COSTER.commands.aboutCommand"
+                  label="About">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="org.usask.srlab.coster.handlers.Preference"
+            id="org.usask.srlab.COSTER.preference"
+            name="COSTER">
+      </page>
+   </extension>
+
+</plugin>
