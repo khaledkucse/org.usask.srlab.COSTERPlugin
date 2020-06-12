@@ -1,0 +1,51 @@
+2020-06-05 11:32:57 INFO  COSTER:572 - COSTER: Context Sensitive Type Solver
+2020-06-05 11:32:57 INFO  COSTER:573 - Version: 1.0
+
+2020-06-05 11:32:57 INFO  ImportStmtComplete:24 - Collecting Jar Files...
+2020-06-05 11:32:57 INFO  ParseUtil:87 - Collecting Jar Files
+2020-06-05 11:32:57 INFO  ParseUtil:100 - Total Number of JAR Files: 364
+2020-06-05 11:32:57 INFO  ImportStmtComplete:27 - Collecting code snippet...
+2020-06-05 11:32:57 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:32:57 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:32:57 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:32:57 INFO  ImportStmtComplete:31 - Total Number of Code Snippet: 2
+2020-06-05 11:32:57 INFO  ImportStmtComplete:34 - Extracting data from the code snippets...
+2020-06-05 11:32:57 INFO  CompilableCodeExtraction:80 - Configure Eclipse JDT
+2020-06-05 11:32:57 INFO  CompilableCodeExtraction:99 - Creating Compilation Unit for each java file
+2020-06-05 11:32:58 INFO  CompilableCodeExtraction:110 - Total Number of Compilation Units: 2
+2020-06-05 11:32:58 INFO  SOCodeExtraction:31 - Extracting types/methods/fields from each Compilation Unit
+2020-06-05 11:32:59 INFO  SOCodeExtraction:44 - 2 compilation units out of 2 are parsed. Percentage of completion: 100%
+2020-06-05 11:38:07 INFO  COSTER:572 - COSTER: Context Sensitive Type Solver
+2020-06-05 11:38:07 INFO  COSTER:573 - Version: 1.0
+
+2020-06-05 11:38:07 INFO  ImportStmtComplete:24 - Collecting Jar Files...
+2020-06-05 11:38:07 INFO  ParseUtil:87 - Collecting Jar Files
+2020-06-05 11:38:07 INFO  ParseUtil:100 - Total Number of JAR Files: 364
+2020-06-05 11:38:07 INFO  ImportStmtComplete:27 - Collecting code snippet...
+2020-06-05 11:38:07 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:38:07 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:38:07 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:38:07 INFO  ImportStmtComplete:31 - Total Number of Code Snippet: 2
+2020-06-05 11:38:07 INFO  ImportStmtComplete:34 - Extracting data from the code snippets...
+2020-06-05 11:38:07 INFO  CompilableCodeExtraction:80 - Configure Eclipse JDT
+2020-06-05 11:38:07 INFO  CompilableCodeExtraction:99 - Creating Compilation Unit for each java file
+2020-06-05 11:38:08 INFO  CompilableCodeExtraction:110 - Total Number of Compilation Units: 2
+2020-06-05 11:38:08 INFO  SOCodeExtraction:31 - Extracting types/methods/fields from each Compilation Unit
+2020-06-05 11:38:09 INFO  SOCodeExtraction:44 - 2 compilation units out of 2 are parsed. Percentage of completion: 100%
+2020-06-05 11:40:01 INFO  COSTER:572 - COSTER: Context Sensitive Type Solver
+2020-06-05 11:40:01 INFO  COSTER:573 - Version: 1.0
+
+2020-06-05 11:40:01 INFO  ImportStmtComplete:24 - Collecting Jar Files...
+2020-06-05 11:40:01 INFO  ParseUtil:87 - Collecting Jar Files
+2020-06-05 11:40:01 INFO  ParseUtil:100 - Total Number of JAR Files: 364
+2020-06-05 11:40:01 INFO  ImportStmtComplete:27 - Collecting code snippet...
+2020-06-05 11:40:01 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:40:01 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:40:01 INFO  ParseUtil:179 - Collecting Code Snippets
+2020-06-05 11:40:01 INFO  ImportStmtComplete:31 - Total Number of Code Snippet: 2
+2020-06-05 11:40:01 INFO  ImportStmtComplete:34 - Extracting data from the code snippets...
+2020-06-05 11:40:01 INFO  CompilableCodeExtraction:80 - Configure Eclipse JDT
+2020-06-05 11:40:01 INFO  CompilableCodeExtraction:99 - Creating Compilation Unit for each java file
+2020-06-05 11:40:02 INFO  CompilableCodeExtraction:110 - Total Number of Compilation Units: 2
+2020-06-05 11:40:02 INFO  SOCodeExtraction:31 - Extracting types/methods/fields from each Compilation Unit
+2020-06-05 11:40:03 INFO  SOCodeExtraction:44 - 2 compilation units out of 2 are parsed. Percentage of completion: 100%

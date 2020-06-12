@@ -137,7 +137,11 @@ IWorkbenchPreferencePage{
 		else
 			Config.NAME_SIMIALRITY_FUNCTION = "levenshtein";
 		
-		System.out.println(Config.ROOT_PATH+" "+Config.TOP_K+" "+ Config.CONTEXT_SIMILARITY_FUNCTION+" "+Config.NAME_SIMIALRITY_FUNCTION+" "+Config.FQN_THRESHOLD);
+		System.out.println("The Pulgin is Configured!!!");
+		System.out.println("Root Path: "+ Config.ROOT_PATH);
+		System.out.println("Top-K selected: "+ Config.TOP_K);
+		System.out.println("Function for Context Similarity: "+ Config.CONTEXT_SIMILARITY_FUNCTION);
+		System.out.println("Function for Name Similarity: "+ Config.NAME_SIMIALRITY_FUNCTION);
 	}
 	@Override
 	public boolean performCancel() {

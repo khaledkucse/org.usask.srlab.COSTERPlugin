@@ -28,6 +28,8 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.handlers.HandlerUtil;
 
+import org.usask.srlab.coster.core.utils.FileUtil;
+
 public class InferTypes extends AbstractHandler {
 
 	@Override
@@ -104,7 +106,7 @@ class SaveResultDialog extends Dialog {
     }
     
     protected String readFromFile(String dataPath) {
-    	ArrayList<String> content = FixImports.getFileStringArray(dataPath);
+    	ArrayList<String> content = FileUtil.getSingleTonFileUtilInst().getFileStringArray(dataPath);
     	StringBuffer sb = new StringBuffer();
     	for(String eachLine:content)
     		sb.append(eachLine+"\n");
@@ -129,7 +131,7 @@ class SaveResultDialog extends Dialog {
 
 		}
 		else {
-			FixImports.writeToFile(Config.ROOT_PATH+"data/repo/input.java", code);
+			FileUtil.getSingleTonFileUtilInst().writeToFile(Config.ROOT_PATH+"data/repo/input.java", code);
 			inferTypes(Config.ROOT_PATH+"data/repo/input.java");
 			String content = readFromFile(Config.ROOT_PATH+"data/repo/output.java");
 			txtCode.setText(content);
@@ -137,6 +139,7 @@ class SaveResultDialog extends Dialog {
 		}
         
     }
+    
     private void inferTypes(String dataPath) {
 		ProcessBuilder processBuilder = new ProcessBuilder();
 		
@@ -192,6 +195,7 @@ class SaveResultDialog extends Dialog {
     public void setDataPath(String dataPath) {
         this.dataPath = dataPath;
     }
+    
     public String getCode() {
 		return code;
 	}
