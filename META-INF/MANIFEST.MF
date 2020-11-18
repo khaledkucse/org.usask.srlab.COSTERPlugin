@@ -38,4 +38,5 @@ Bundle-ClassPath: externalJar/app-1.3.200-v20130910-1609.jar,
  externalJar/registry-3.5.400-v20140428-1507.jar,
  externalJar/runtime-3.10.0-v20140318-2214.jar,
  externalJar/trove4j-3.0.3.jar,
+ externalJar/utils4j-0.10.1.jar,
  .
